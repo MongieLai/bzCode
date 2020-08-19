@@ -1,0 +1,47 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+.topbar-wrapper{
+    background-color: white;
+    display: inline-flex;
+    /* width: 600px; */
+    padding: 5px 10px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.topbar-wrapper section{
+    display: flex;
+}
+
+.topbar-wrapper section input{
+    height: 30px;
+    line-height: 30px;
+    padding: 2px 5px;
+    min-width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.topbar-wrapper section select{
+    height: 38px;
+    min-width: 230px;
+    margin-right: 20px;
+}
+
+.topbar-wrapper section label{
+    height: 38px;
+    line-height: 38px;
+}
+
+.input-and-select{
+ position: relative;   
+}
